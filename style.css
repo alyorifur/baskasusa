@@ -276,24 +276,4 @@ textarea {
   #footer { margin-left:0px;}
   }
   
-  /*RESPOVIVIDADE Ipad  e ipad mini*/
-  @media screen and (min-width:768px) and (max-width:1024px){/*ipad*/
-    body, div{}
-    #footer { margin-left:0px;}		
-  }	
-  /*RESPONSIVIDADE ipad air e */
-  @media screen and (min-width:820px) and (max-width:1190px){
-    body, div{}
-  #footer { margin-left:9px;}
-  }
-  /*RESPONSIVIDADE ipad air e */
-  @media screen and (min-width:1025px) and (max-width:1280px){
-    body, div{}
-  #footer { margin-left:9px;}
-  }
   
-  /*RESPONSIVIDADE ipad pro	*/
-  @media screen and (min-width:1024px) and (max-width:1366px){
-    body, div{}
-  #footer { margin-left:110px;}
-  }
