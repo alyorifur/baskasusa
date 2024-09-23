@@ -273,28 +273,20 @@ textarea {
 /*RESPONSIVIDADE celulares	*/
 @media screen and (min-width:330px) and (max-width:480px){
     body, div{}
-  #footer { margin-left:0px;}
+  #footer { min-width: 900px;
+            max-width: 900px;}
+  #header { min-width: 900px;
+            max-width: 900px;}
   }
-  
-  /*RESPOVIVIDADE Ipad  e ipad mini*/
-  @media screen and (min-width:768px) and (max-width:1024px){/*ipad*/
-    body, div{}
-    #footer { margin-left:0px;}		
-  }	
   /*RESPONSIVIDADE ipad air*/
   @media screen and (min-width:820px) and (max-width:1190px){
     body, div{}
-  #footer { margin-left:9px;}
+  #footer { max-width: 900px;}
   }
-  /*RESPONSIVIDADE ipad air e */
-  @media screen and (min-width:1025px) and (max-width:1280px){
-    body, div{}
-  #footer { margin-left:9px;}
-  }
-  
   /*RESPONSIVIDADE ipad pro	*/
   @media screen and (min-width:1024px) and (max-width:1366px){
     body, div{}
-  #footer { margin-left:110px;}
+  #footer { max-width: 900px;
+    height: 50px;}
   }
   
