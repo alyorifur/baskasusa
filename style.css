@@ -270,21 +270,3 @@ textarea {
     border-radius: 15px;
     padding: 12% 0;
 }
-/*RESPONSIVIDADE ipad air	*/
-@media screen and (min-width:819px) and (max-width:1190px){
-    body, div{}
-#footer { margin-left:13px;
-        margin-top: 10px;}
-}
-
-
-@media screen and (min-width:1020px) and (max-width:1200px){
-    body, div{}
-#footer { margin-left:115px;
-        margin-top: 10px;}
-}
-@media screen and (min-width:1200px) and (max-width:1800px){
-    body, div{}
-#footer { margin-left:243px;
-        margin-top: 10px;}
-}
