@@ -59,7 +59,8 @@ ul#menu a.ativa {
 #fundo-home {
     background-repeat: no-repeat;
 }
-#fundo-sobre{
+
+#fundo-sobre {
     background-color: rgb(188, 184, 184);
     max-width: 900px;
     height: 800px;
@@ -68,17 +69,21 @@ ul#menu a.ativa {
     border-radius: 15px;
     padding: 20px;
 }
-#fundo-sobre h1{
+
+#fundo-sobre h1 {
     color: rgb(163, 13, 13);
 }
-#equipe-escalada{
+
+#equipe-escalada {
     display: flex;
     align-items: center;
 }
-#equipe-escalada li{
+
+#equipe-escalada li {
     margin-left: 50px;
 }
-#fundo-destaque{
+
+#fundo-destaque {
     background-color: rgb(188, 184, 184);
     max-width: 900px;
     height: 465px;
@@ -88,21 +93,25 @@ ul#menu a.ativa {
     padding: 20px;
     padding: 14% 0;
 }
-#fundo-destaque h1{
-    color:rgb(163, 13, 13);
+
+#fundo-destaque h1 {
+    color: rgb(163, 13, 13);
     padding-left: 20px;
     padding-right: 20px;
 }
-#fundo-destaque h2{
+
+#fundo-destaque h2 {
     color: rgb(27, 11, 117);
     padding-left: 20px;
     padding-right: 20px;
 }
-#fundo-destaque p{
+
+#fundo-destaque p {
     padding-left: 20px;
     padding-right: 20px;
 }
-#fundo-desafios{
+
+#fundo-desafios {
     margin-top: 40px;
     margin-bottom: 40px;
     background-color: rgb(188, 184, 184);
@@ -110,42 +119,50 @@ ul#menu a.ativa {
     max-width: 900px;
     height: 1180px;
 }
-#data{
+
+#data {
     background-color: rgb(87, 87, 255);
     margin-top: 20px;
     border-radius: 7px;
 }
-#data h1{
+
+#data h1 {
     color: white;
     font-size: 43px;
     display: flex;
     justify-content: center;
 }
-#agrupamento{
+
+#agrupamento {
     background-color: white;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 7px;
 }
-#placar{
+
+#placar {
     display: flex;
     justify-content: center;
     padding: 20px;
 }
-#placar h1{
+
+#placar h1 {
     margin-left: 40px;
     margin-right: 10px;
 }
-#trofeu{
+
+#trofeu {
     margin-right: 40px;
     margin-top: 7px;
 }
-.img-text{
+
+.img-text {
     display: flex;
     flex-direction: column;
 }
-#fundo-medalhas{
+
+#fundo-medalhas {
     background-color: rgb(188, 184, 184);
     margin-top: 40px;
     margin-bottom: 40px;
@@ -154,7 +171,8 @@ ul#menu a.ativa {
     max-width: 900px;
     height: 775px;
 }
-#agrupamento2{
+
+#agrupamento2 {
     background-color: white;
     margin-top: 20px;
     margin-left: 10px;
@@ -162,50 +180,59 @@ ul#menu a.ativa {
     border-radius: 7px;
     height: 735px;
 }
-#podio{
+
+#podio {
     background-color: rgb(87, 87, 255);
     margin-top: 20px;
     border-radius: 7px;
     height: 70px;
 }
-#podio h1{
+
+#podio h1 {
     color: white;
     font-size: 33px;
     display: flex;
     justify-content: center;
     padding-top: 9px;
 }
-.img-text2{
+
+.img-text2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
 }
-.img-text2 p{
+
+.img-text2 p {
     display: flex;
     justify-content: center;
 }
-#prata-bronze{
+
+#prata-bronze {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
 }
-#prata-bronze p{
+
+#prata-bronze p {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#medalha{
+
+#medalha {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#medalha p{
+
+#medalha p {
     text-align: center;
     font-weight: 700;
 }
+
 #footer {
     text-align: center;
     background-color: rgb(163, 13, 13);
@@ -213,6 +240,7 @@ ul#menu a.ativa {
     padding: 20px;
     color: white;
 }
+
 #form {
     max-width: 500px;
     margin: 0px auto;
@@ -221,7 +249,9 @@ ul#menu a.ativa {
     padding-right: 45px;
 }
 
-form input, textarea, select {
+form input,
+textarea,
+select {
     width: 100%;
     background-color: rgb(163, 13, 13);
     border: 0;
@@ -258,9 +288,11 @@ textarea {
     border-radius: 50px;
     margin-left: 10px;
 }
-#cont{
+
+#cont {
     min-height: calc(100vh - 170px);
 }
+
 #fundoform {
     background-color: rgb(188, 184, 184);
     max-width: 900px;
@@ -270,23 +302,88 @@ textarea {
     border-radius: 15px;
     padding: 12% 0;
 }
+
 /*RESPONSIVIDADE celulares	*/
-@media screen and (min-width:330px) and (max-width:480px){
-    body, div{}
-  #footer { min-width: 900px;
-            max-width: 900px;}
-  #header { min-width: 900px;
-            max-width: 900px;}
-  }
-  /*RESPONSIVIDADE ipad air*/
-  @media screen and (min-width:820px) and (max-width:1190px){
-    body, div{}
-  #footer { max-width: 900px;}
-  }
-  /*RESPONSIVIDADE ipad pro	*/
-  @media screen and (min-width:1024px) and (max-width:1366px){
-    body, div{}
-  #footer { max-width: 900px;
-    height: 50px;}
-  }
-  
+@media screen and (min-width:330px) and (max-width:480px) {
+
+    body,
+    div {}
+
+    #footer {
+        padding: 10px 20px;
+        min-width: 290px;
+    }
+
+    #header {
+        min-width: 330px;
+    }
+
+    #header img {
+        max-width: 0px;
+    }
+    #header h1{
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+    #menu li{
+        margin-left: 50px;
+    }
+    #cont {
+        min-width: 375px;
+    }
+    #fundo-home img {
+        max-width: 375px;
+    }
+}
+
+/*RESPONSIVIDADE ipad air*/
+@media screen and (min-width:820px) and (max-width:1180px) {
+
+    body,
+    div {}
+
+    #footer {
+        padding: 10px 20px;
+        width: 780px;
+    }
+
+    #header {
+        min-width: 820px;
+    }
+
+    #header h1 {
+        max-width: 10px;
+    }
+
+    #cont {
+        max-width: 820px;
+    }
+
+    #fundo-home img {
+        max-width: 820px;
+    }
+}
+
+/*RESPONSIVIDADE ipad pro	*/
+@media screen and (min-width:1024px) and (max-width:1366px) {
+
+    body,
+    div {}
+
+    #footer {
+        padding: 10px 20px;
+        width: 964px;
+    }
+
+    #header {
+        min-width: 1004px;
+    }
+
+    #cont {
+        max-width: 1004px;
+    }
+
+    #fundo-home img {
+        min-width: 1004px;
+    }
+}
